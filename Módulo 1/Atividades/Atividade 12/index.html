@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1> Inserindo vídeos hospedados localmente</h1>
+    <p> Este vídeo está hospedado no meu próprio pc</p>
+   <video poster="imagens/limoes-capa.png" width="500" controls loop> <!-- ordem importa-->
+    <source src="media/meu-video.mp4.mp4" type="video/mp4">
+    <source src="media/Meu-Video.mkv" type="video/mp4">
+    <source src="media/Meu-Video.webm" type="video/webm">
+    <p> Seu navegador não consegue reproduzir vídeos</p> <!-- cuidado com o peso dos vídeos, esta técnica deixa o site EXTREMAMENTE pesado e caro pra se manter no ar-->
+   </video>
+   <h1> Trabalhando com vídeos externos</h1>
+   <p> Este vídeo foi tirado do Youtubedo canal Terrorizando</p>
+   <iframe width="500" height="300" src="https://www.youtube.com/embed/WD5a-od7oCk?si=WwQ9lyUQHIDgcTdX&amp;start=120" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <!-- Cuidado com copyright, com os vídeos privados que se tornaram público aos usuários do site--> <!-- não pesa no site, mas cuidado com o tamanho do vídeo-->
+</body>
+</html>

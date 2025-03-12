@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        a{
+            color:rgb(238, 7, 7);
+            text-decoration: none;
+            font-weight: bolder;
+
+        }
+        a:visited{
+            color:darkred;
+        }
+        a:hover{
+            color:brown;
+            text-decoration: underline;
+        }
+        a:active{
+            color:yellow
+        }
+        a::before{
+            content: '✦';
+        }
+        a::after{
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: blue  ;
+        }
+    </style>
+</head>
+<body>
+    <h1> Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.instagram.com/luiz_fel.07/" target="_blank"> Meu Insta</a></li>
+        <li><a href="https://www.instagram.com/luiz_fel.07/" target="_blank"> Meu Youtube</a></li>
+        <li><a href="https://www.instagram.com/luiz_fel.07/" target="_blank"> Meu LinkedIn</a></li>
+    </ul>
+</body>
+</html>
