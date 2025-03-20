@@ -42,11 +42,11 @@ main{
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.384);
     box-sizing: border-box;
-    transform: translate(1275px);
+    transform: translate(93vw);
 }
 #redes-sociais, img:hover{
     border: 2px solid rgb(199, 191, 191);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 623);
-    transform: translate(1270px, -5px);
+    transform: translate(91vw);
     transition: transform .3s, border .5s;
 }
