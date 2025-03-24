@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 3</title>
+</head>
+<body>
+    <h1> Teste de formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="inome"> Nome  <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Insira seu nome completo" autocomplete="username"></label>
+        </p>
+        <p>
+            <label for="inota"> Média <input type="number" name="Nota" id="inota" placeholder="Insira sua média aqui" maxlength="4" min="1" step="0.1" value="5" max="10"></label>
+        </p>
+        <p>
+            <label for="iperiodo"> Período letivo <input type="month" name="mes" id="imes"></label>
+        </p>
+        <p>
+            <label for="idata"> Data da prova <input type="date" name="data" id="idata" placeholder="Insira a data de aplicação da prova"></label>
+        </p>
+        <p>
+            <label for="ihora"> Hora da prova  <input type="time" name="hora" id="ihora" placeholder="Insira a hora de aplicação da prova"></label>
+        </p>
+    <input type="submit" name="Enviar" id="ienviar">
+    <input type="reset" name="Limpar" id="ilimpar">
+ </form>
+</body>
+</html>
