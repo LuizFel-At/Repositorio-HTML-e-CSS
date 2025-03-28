@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1> Exemplo de formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            
+                <label for="est"> Estado: <select name="estado" id="est">
+                    <option value="" selected> --- Escolha ---</option>
+                    <option value="SP"> São Paulo </option>
+                    <option value="RJ"> Rio de Janeiro</option>
+                    <option value="SC"> Santa Catarina</option>
+                    <option value="RS"> Rio grande do Sul</option>
+                    <option value="MG"> Minas gerais </option>
+                </select>
+                </label>
+            </p>
+                
+        <p>
+            <label for="prof"> Profissão</label>
+            <input type="text" name="prof" id="prof" list="istprofe">
+            <datalist id="istprofe">
+                <option value="ADM"> Administrator</option>
+                <option value="profe"> Professor</option>
+                <option value="ele"> Técnico de eletrônica</option>
+                <option value="prog"> Programados</option>
+            
+            </datalist>
+        </p>
+            
+        <p>
+            <label for="msg"> Mensagem</label> <br>
+            <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+        </p>
+
+        
+        <p>
+            <input type="submit" value="Enviar"> <input type="reset" value="Limpar"> 
+        </p>
+    </form>
+</body>
+</html>
